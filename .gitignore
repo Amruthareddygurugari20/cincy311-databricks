@@ -1,0 +1,19 @@
+# Raw data (1.29 GB CSV) is downloaded by scripts/download_raw.sh, never committed
+*.csv
+data/
+
+# Python / notebook artifacts
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+mlruns/
+
+# Local config and secrets
+.databrickscfg
+.env
+.venv/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
